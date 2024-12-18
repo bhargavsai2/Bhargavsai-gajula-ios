@@ -40,11 +40,11 @@ const ResultsComponent = () => {
     const getBadgeColor = (type) => {
         switch (type) {
             case 'User':
-                return '#4caf50'; // Green for User
+                return '#4caf50'; 
             case 'Organization':
-                return '#ff9800'; // Orange for Organization
+                return '#ff9800'; 
             default:
-                return '#2196f3'; // Blue for others
+                return '#2196f3'; 
         }
     };
 

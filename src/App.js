@@ -8,7 +8,7 @@ import ResultsComponent from './components/ResultsComponent';
 import { Provider as PaperProvider } from 'react-native-paper';
 import { DefaultTheme } from 'react-native-paper';
 
-// Set up navigation
+
 const Stack = createNativeStackNavigator();
 
 const theme = {

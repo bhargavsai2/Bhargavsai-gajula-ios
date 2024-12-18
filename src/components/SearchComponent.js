@@ -13,7 +13,7 @@ import { fetchUsers, setQuery, resetSearch } from '../redux/slices/searchSlice';
 import { useNavigation } from '@react-navigation/native';
 
 const { width } = Dimensions.get('window');
-const logoImage = require('../../assets/brand-logo.png'); // Replace with your logo path
+const logoImage = require('../../assets/brand-logo.png'); 
 
 const SearchComponent = () => {
     const { colors } = useTheme();
@@ -113,8 +113,8 @@ const styles = StyleSheet.create({
     },
     logoContainer: {
         width: 150,
-        height: 100, // Reduced height
-        marginBottom: 8, // Reduced bottom margin
+        height: 100, 
+        marginBottom: 8, 
         justifyContent: 'center',
         alignItems: 'center',
     },
@@ -122,7 +122,7 @@ const styles = StyleSheet.create({
         width: '100%',
         height: '100%',
         maxWidth: 150,
-        maxHeight: 120, // Adjusted max height
+        maxHeight: 120, 
     },
     input: {
         width: '100%',

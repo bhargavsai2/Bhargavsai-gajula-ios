@@ -2,23 +2,23 @@ import 'react-native';
 import '@testing-library/jest-native/extend-expect';
 import fetchMock from 'jest-fetch-mock';
 
-// Mock fetch (if you're using it)
+
 fetchMock.enableMocks();
 
-// Mock react-native-reanimated
+
 jest.mock('react-native-reanimated', () => {
     const Reanimated = require('react-native-reanimated/mock');
-    Reanimated.Clock = () => ({ start: jest.fn(), stop: jest.fn() }); // Important for newer versions
+    Reanimated.Clock = () => ({ start: jest.fn(), stop: jest.fn() }); 
     return Reanimated;
 });
 
-// Mock react-native-gesture-handler (if you're using it, which is likely with react-navigation)
+
 jest.mock('react-native-gesture-handler', () => {});
 
-// Mock react-native/Libraries/Animated/NativeAnimatedHelper
+
 jest.mock('react-native/Libraries/Animated/NativeAnimatedHelper');
 
-// Mock @react-navigation/native
+
 jest.mock('@react-navigation/native', () => {
     return {
         useNavigation: () => ({

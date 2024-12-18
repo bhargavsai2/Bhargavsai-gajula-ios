@@ -9,7 +9,7 @@ import { DefaultTheme } from 'react-native-paper';
 
 import SearchComponent from '../components/SearchComponent';
 
-// Mock dependencies
+
 jest.mock('@react-navigation/native', () => ({
   useNavigation: () => ({
     navigate: jest.fn(),
