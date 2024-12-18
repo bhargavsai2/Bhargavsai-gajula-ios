@@ -1,4 +1,4 @@
-## {Bhargav Sai Gajula}'s GitHub User Search App
+## GitHub User Search App
 
 This React Native application allows users to search for GitHub users and displays the results in a user-friendly interface. It leverages the GitHub Search API and follows modern design principles.
 
@@ -28,59 +28,94 @@ This React Native application allows users to search for GitHub users and displa
 
 **Instructions:**
 
-1. **Clone the Repository:**
+1.  **Clone the Repository:**
 
-   ```bash
-   git clone https://github.com/{your-username}/{your-name}-ios.git
-   ```
+    ```bash
+    git clone [https://github.com/](https://github.com/){your-username}/{your-name}-ios.git
+    ```
 
-2. **Navigate to the Project Directory:**
+2.  **Navigate to the Project Directory:**
 
-   ```bash
-   cd {your-name}-ios
-   ```
+    ```bash
+    cd {your-name}-ios
+    ```
 
-3. **Install Dependencies:**
+3.  **Install Dependencies:**
 
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
 
-4. **Install CocoaPods (iOS Only):** (macOS only)
+4.  **Install CocoaPods (iOS Only):** (macOS only - Only needed if running directly without Expo)
 
-   ```bash
-   sudo gem install cocoapods
-   cd ios && pod install && cd ..
-   ```
+    ```bash
+    cd ios && pod install && cd ..
+    ```
 
-5. **Start the Metro Bundler:**
+**Running the App:**
 
-   ```bash
-   npx react-native start
-   # or
-   yarn start
-   ```
+There are two main ways to run the app: using the React Native CLI directly (for native builds) or using Expo.
 
-6. **Run the App:**
+**Method 1: Using React Native CLI (Native Builds)**
 
-    - **Android:**
+This method creates native iOS and Android builds.
 
-      ```bash
-      npx react-native run-android
-      # or
-      yarn android
-      ```
+**Android:**
 
-    - **iOS:** (macOS only)
+1.  **Start the Metro Bundler:**
 
-      ```bash
-      npx react-native run-ios
-      # or
-      yarn ios
-      ```
+    ```bash
+    npx react-native start
+    # or
+    yarn start
+    ```
 
+2.  **Run on Android (emulator or device):**
+
+    ```bash
+    npx react-native run-android
+    # or
+    yarn android
+    ```
+
+**iOS:**
+
+1.  **Start the Metro Bundler:**
+
+    ```bash
+    npx react-native start
+    # or
+    yarn start
+    ```
+
+2.  **Run on iOS (simulator or device):**
+
+    ```bash
+    npx react-native run-ios
+    # or
+    yarn ios
+    ```
+
+**Method 2: Using Expo (Easier for Quick Testing)**
+
+This method uses the Expo Go app on your device for faster iteration.
+
+1.  **Start the Expo Development Server:**
+
+    ```bash
+    npx expo start --clear
+    # or
+    yarn start --clear 
+    ```
+    The `--clear` flag is useful to clear any cached builds that might be causing issues.
+
+2.  **Open the app on your device:**
+
+    -   **Expo Go App:** Open the Expo Go app on your iOS or Android device.
+    -   **Scan QR Code:** Scan the QR code displayed in your terminal or browser.
+    -   **Or enter URL:** Alternatively, you can manually enter the URL provided in the terminal into the Expo Go app.
 
 **Further Notes**
 
