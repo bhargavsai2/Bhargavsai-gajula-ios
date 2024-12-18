@@ -117,6 +117,3 @@ This method uses the Expo Go app on your device for faster iteration.
     -   **Scan QR Code:** Scan the QR code displayed in your terminal or browser.
     -   **Or enter URL:** Alternatively, you can manually enter the URL provided in the terminal into the Expo Go app.
 
-**Further Notes**
-
-- The code adheres to MVVM architecture with Redux for state management.
