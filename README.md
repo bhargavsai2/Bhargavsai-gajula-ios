@@ -37,7 +37,7 @@ This React Native application allows users to search for GitHub users and displa
 2.  **Navigate to the Project Directory:**
 
     ```bash
-    cd {your-name}-ios
+    cd Bhargavsai-gajula-ios
     ```
 
 3.  **Install Dependencies:**
