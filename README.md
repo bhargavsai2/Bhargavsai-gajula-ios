@@ -31,7 +31,7 @@ This React Native application allows users to search for GitHub users and displa
 1.  **Clone the Repository:**
 
     ```bash
-    git clone [https://github.com/](https://github.com/){your-username}/{your-name}-ios.git
+    git clone https://github.com/bhargavsai2/Bhargavsai-gajula-ios.git
     ```
 
 2.  **Navigate to the Project Directory:**
